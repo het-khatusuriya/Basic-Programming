@@ -16,3 +16,6 @@ appendingtext = file.write(userinput)
 
 file = open("assignment4_textfile.txt",'r')
 print("file content after append opeartion: \n",file.read())
+
+
+file.close()
